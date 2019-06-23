@@ -1,5 +1,5 @@
 const AUTO_ACCEPT_THRESHOLD		= 100,			// Automatically accepts offers for *equal or more than* the specified amount (0 to disable).
-	AUTO_REJECT_THRESHOLD		= 80,			/*	Automatically declines offers for *less* than the specified amount (or AUTO_ACCEPT_THRESHOLD).
+	AUTO_REJECT_THRESHOLD		= 95,			/*	Automatically declines offers for *less* than the specified amount (or AUTO_ACCEPT_THRESHOLD).
 													Example: 75 will decline offers for less than 75% of the asking price (0 to disable).
 												*/
 	AUTO_REJECT_TROLLS			= 200,			// reject deals with offer price more than % of the asked price
